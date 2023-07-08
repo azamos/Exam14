@@ -54,36 +54,36 @@ int main()
         printf("canEat function is wrong for train1_3 (-9)\n");
 
 
- //   //Q2
-	//int arr1[] = { 1,2,3,4,5 };
-	//int res1 = specialSum(arr1, 5, 5);
+    //Q2
+	int arr1[] = { 1,2,3,4,5 };
+	int res1 = specialSum(arr1, 5, 5);
 
-	//if (count1 < 3)
-	//	printf("specialSum function is not recursive (-8)\n");
-	//else if (res1 != 10)
-	//{
-	//	printf("specialSum function is wrong for train2_1  (-8)\n");
-	//}
+	if (count1 < 3)
+		printf("specialSum function is not recursive (-8)\n");
+	else if (res1 != 10)
+	{
+		printf("specialSum function is wrong for train2_1  (-8)\n");
+	}
 
-	//count1 = 0;
-	//int arr2[] = { 1,2,3,-4, 4, 5, 6 };
-	//int res2 = specialSum(arr2, 7, 5);
+	count1 = 0;
+	int arr2[] = { 1,2,3,-4, 4, 5, 6 };
+	int res2 = specialSum(arr2, 7, 5);
 
-	//if (count1 < 5)
-	//	printf("specialSum function is not recursive (-9)\n");
-	//else if (res2 != 20)
-	//{
-	//	printf("specialSum function is wrong for train2_2  (-9)\n");
-	//}
+	if (count1 < 5)
+		printf("specialSum function is not recursive (-9)\n");
+	else if (res2 != 20)
+	{
+		printf("specialSum function is wrong for train2_2  (-9)\n");
+	}
 
-	//count1 = 0;
-	//int arr3[] = { 9,9 };
-	//int res3 = specialSum(arr3, 2, 8);
+	count1 = 0;
+	int arr3[] = { 9,9 };
+	int res3 = specialSum(arr3, 2, 8);
 
-	//if (res3 != 18)
-	//{
-	//	printf("specialSum function is wrong for train2_3  (-8)\n");
-	//}
+	if (res3 != 18)
+	{
+		printf("specialSum function is wrong for train2_3  (-8)\n");
+	}
 
  //   //Q3
 	//Person* perArr[5];
